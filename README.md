@@ -1,6 +1,24 @@
 # My_C_Database_Application
 
 ## Comands
+BYE   clear database and exit
+HELP  display this help message
+
+LIST KEYS       displays all keys in current state
+LIST ENTRIES    displays all entries in current state
+LIST SNAPSHOTS  displays all snapshots in the database
+
+GET <key>
+DEL <key>
+PURGE <key>  deletes entry from current state and snapshots
+
+SET <key> <value ...>     sets entry values
+PUSH <key> <value ...>    pushes values to the front
+APPEND <key> <value ...>  appends values to the back
+  
+
+
+
 
 - Simple entry (strictly integer values)
 
