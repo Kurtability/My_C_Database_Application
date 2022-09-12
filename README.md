@@ -17,3 +17,12 @@ The values can be updated with other commands.
 > GET a [9 8 7]
 
 ## An entry is termed simple if it’s values are only integers. It is otherwise general and described later.
+
+- General entry (mixed integer and key values)
+
+A general entry contains at least one value that is a key to another entry in the database.
+> SET a 1 2 ok
+> SET b 4 a 6 ok
+> LIST ENTRIES B[4a6] A[12]
+> SUM a 3
+> SUM b 13
