@@ -1,5 +1,7 @@
 # My_C_Database_Application
 
+## Comands
+
 - Simple entry (strictly integer values)
 
 The simple entry is a key value store, where only integers are used as values. The following defines and initialises an entry with key identifier a with values:
@@ -27,7 +29,7 @@ The values can be updated with other commands.
 
 - General entry (mixed integer and key values)
 
-A general entry contains at least one value that is a key to another entry in the database.
+## A general entry contains at least one value that is a key to another entry in the database.
 - > SET a 1 2 
 - ok
 - > SET b 4 a 6 
