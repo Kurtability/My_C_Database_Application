@@ -1,8 +1,3 @@
-/**
- * comp2017 - assignment 2
- * <your name> Kurt Lu
- * <your unikey> falu5003
- */
 
 #include <stdio.h>
 #include <stdlib.h>
