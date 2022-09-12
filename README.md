@@ -1,22 +1,25 @@
 # My_C_Database_Application
 
 ## Comands
-BYE   clear database and exit
-HELP  display this help message
+BYE
+HELP
 
-LIST KEYS       displays all keys in current state
-LIST ENTRIES    displays all entries in current state
-LIST SNAPSHOTS  displays all snapshots in the database
+LIST KEYS
+LIST ENTRIES
+LIST SNAPSHOTS
 
-GET <key>
-DEL <key>
-PURGE <key>  deletes entry from current state and snapshots
-
-SET <key> <value ...>     sets entry values
-PUSH <key> <value ...>    pushes values to the front
-APPEND <key> <value ...>  appends values to the back
+GET <KEY>
+DEL <KEY>
+PURGE <KEY>
   
 
+SET <KEY>
+PUSH <KEY>
+APPEND <KEY>
+  
+PICK <KEY>
+PLUCK <KEY>
+POP <KEY>
 
 
 
