@@ -1,0 +1,12 @@
+pop a
+pop b
+set a 1 2 3
+pop a
+get a
+pop a 1
+get a
+pop a 1
+get a
+pop a 1
+get a
+bye

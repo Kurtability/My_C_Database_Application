@@ -1,0 +1,10 @@
+pick a 1
+pick b 1
+set a 1 2 3
+pick a 3
+pick a 4
+set a 3
+pick a 3
+del a
+pick a 1
+bye

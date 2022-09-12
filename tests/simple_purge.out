@@ -1,0 +1,35 @@
+> purge a 
+ok
+
+> get a 
+no such key
+
+> set a 1 2 3 
+ok
+
+> purge a
+ok
+
+> list keys
+no keys
+
+> list entries 
+no entries
+
+> set b 1
+ok
+
+> list entries
+b [1]
+
+> purge b
+ok
+
+> get b
+no such key
+
+> list entries 
+no entries
+
+> bye
+bye

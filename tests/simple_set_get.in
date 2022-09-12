@@ -1,0 +1,7 @@
+get a
+set a 1 2 3
+get a
+set a 3
+get a
+get b
+bye

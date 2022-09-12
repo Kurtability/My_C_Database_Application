@@ -1,0 +1,12 @@
+purge a
+get a
+set a 1 2 3
+purge a
+list keys
+list entries
+set b 1
+list entries
+purge b
+get b
+list entries
+bye

@@ -1,0 +1,11 @@
+sort a
+set a 3 2 1 6 5 4
+sort a
+get a
+append a 1 1 1 2 2 2
+get a
+push a 2 1
+get a
+sort a
+get a
+bye

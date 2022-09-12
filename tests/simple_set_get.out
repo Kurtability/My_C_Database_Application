@@ -1,0 +1,20 @@
+> get a 
+no such key
+
+> set a 1 2 3 
+ok
+
+> get a 
+[1 2 3]
+
+> set a 3
+ok
+
+> get a
+[3]
+
+> get b
+no such key
+
+> bye
+bye

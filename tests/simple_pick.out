@@ -1,0 +1,29 @@
+> pick a 1 
+no such key
+
+> pick b 1
+no such key
+
+> set a 1 2 3 
+ok
+
+> pick a 3
+3
+
+> pick a 4
+index out of range
+
+> set a 3
+ok
+
+> pick a 3
+index out of range
+
+> del a 
+ok
+
+> pick a 1
+no such key
+
+> bye
+bye

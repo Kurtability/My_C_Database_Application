@@ -1,0 +1,41 @@
+> uniq a 
+no such key
+
+> set a 1 1 1 
+ok
+
+> get a
+[1 1 1]
+
+> uniq a
+ok
+
+> get a
+[1]
+
+> append a 1 1 2  
+ok
+
+> get a 
+[1 1 1 2]
+
+> uniq a
+ok
+
+> get a
+[1]
+
+> push a 0 0 0
+ok
+
+> get a
+[0 0 0 1]
+
+> uniq a
+ok
+
+> get a
+[0]
+
+> bye
+bye

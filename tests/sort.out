@@ -1,0 +1,32 @@
+> sort a 
+no such key
+
+> set a 3 2 1 6 5 4
+ok
+
+> sort a
+ok
+
+> get a
+[1 2 3 4 5 6]
+
+> append a 1 1 1 2 2 2
+ok
+
+> get a 
+[1 2 3 4 5 6 1 1 1 2 2 2]
+
+> push a 2 1
+ok
+
+> get a 
+[1 2 1 2 3 4 5 6 1 1 1 2 2 2]
+
+> sort a
+ok
+
+> get a
+[1 1 1 1 1 2 2 2 2 2 3 4 5 6]
+
+> bye
+bye

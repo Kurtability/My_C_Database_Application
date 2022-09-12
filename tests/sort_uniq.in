@@ -1,0 +1,13 @@
+sort a
+uniq a
+set a 2 1 1 1
+get a
+sort a
+get a
+uniq a
+get a
+push a 1 1 1
+get a
+uniq a
+get a
+bye

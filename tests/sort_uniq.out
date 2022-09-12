@@ -1,0 +1,38 @@
+> sort a
+no such key
+
+> uniq a
+no such key
+
+> set a 2 1 1 1
+ok
+
+> get a
+[2 1 1 1]
+
+> sort a
+ok
+
+> get a
+[1 1 1 2]
+
+> uniq a
+ok
+
+> get a
+[1]
+
+> push a 1 1 1
+ok
+
+> get a
+[1 1 1 1]
+
+> uniq a
+ok
+
+> get a
+[1]
+
+> bye
+bye
